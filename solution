@@ -1,0 +1,8 @@
+def abbrevName(name):
+    # a = name.upper().split(' ')
+    # res = []
+    # for i in a:
+    #     res.append(i[0])
+    return '.'.join(i[0].upper() for i in name.split(' '))
+
+print(abbrevName("sam harris"))
